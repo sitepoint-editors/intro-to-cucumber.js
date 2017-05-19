@@ -1,0 +1,19 @@
+{
+  "name": "intro-to-cucumber",
+  "version": "1.0.0",
+  "description": "Examples for \"Introduction to Cucumber.js\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Graham Cox <graham@grahamcox.co.uk>",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "cucumber": "^2.1.0",
+    "grunt-cli": "^1.2.0",
+    "grunt-shell": "^2.1.0",
+    "gulp": "^3.9.1",
+    "gulp-shell": "^0.6.3"
+  }
+}

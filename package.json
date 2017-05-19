@@ -4,7 +4,8 @@
   "description": "Examples for \"Introduction to Cucumber.js\"",
   "main": "index.js",
   "scripts": {
-    "simple": "cucumber.js simple/features -r simple/steps"
+    "simple": "cucumber.js simple/features -r simple/steps",
+    "background": "cucumber.js simple/features -r simple/steps"
   },
   "author": "Graham Cox <graham@grahamcox.co.uk>",
   "license": "ISC",

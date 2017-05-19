@@ -20,6 +20,9 @@ grunt.initConfig({
 		},
 		world: {
             command: 'cucumber.js world/features -r world/steps'
+		},
+		events: {
+            command: 'cucumber.js events/features -r events/steps'
 		}
 	}
 });

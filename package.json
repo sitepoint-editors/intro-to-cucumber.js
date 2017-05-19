@@ -4,13 +4,14 @@
   "description": "Examples for \"Introduction to Cucumber.js\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "simple": "cucumber.js simple/features -r simple/steps"
   },
   "author": "Graham Cox <graham@grahamcox.co.uk>",
   "license": "ISC",
   "dependencies": {
     "chai": "^3.5.0",
     "cucumber": "^2.1.0",
+    "grunt": "^1.0.1",
     "grunt-cli": "^1.2.0",
     "grunt-shell": "^2.1.0",
     "gulp": "^3.9.1",

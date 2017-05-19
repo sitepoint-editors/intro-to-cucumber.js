@@ -11,6 +11,9 @@ grunt.initConfig({
 		},
 		outline: {
             command: 'cucumber.js outline/features -r outline/steps'
+		},
+		datatable: {
+            command: 'cucumber.js datatable/features -r datatable/steps'
 		}
 	}
 });

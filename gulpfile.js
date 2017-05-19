@@ -13,3 +13,7 @@ gulp.task('outline', shell.task([
   'cucumber.js outline/features -r outline/steps'
 ]));
 
+gulp.task('datatable', shell.task([
+  'cucumber.js datatable/features -r datatable/steps'
+]));
+

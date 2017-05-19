@@ -21,3 +21,7 @@ gulp.task('hooks', shell.task([
   'cucumber.js hooks/features -r hooks/steps'
 ]));
 
+gulp.task('world', shell.task([
+  'cucumber.js world/features -r world/steps'
+]));
+

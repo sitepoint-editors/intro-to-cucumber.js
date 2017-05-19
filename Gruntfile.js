@@ -17,6 +17,9 @@ grunt.initConfig({
 		},
 		hooks: {
             command: 'cucumber.js hooks/features -r hooks/steps'
+		},
+		world: {
+            command: 'cucumber.js world/features -r world/steps'
 		}
 	}
 });

@@ -17,3 +17,7 @@ gulp.task('datatable', shell.task([
   'cucumber.js datatable/features -r datatable/steps'
 ]));
 
+gulp.task('hooks', shell.task([
+  'cucumber.js hooks/features -r hooks/steps'
+]));
+

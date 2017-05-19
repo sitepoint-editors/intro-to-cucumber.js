@@ -7,7 +7,8 @@
     "simple": "cucumber.js simple/features -r simple/steps",
     "background": "cucumber.js background/features -r background/steps",
     "outline": "cucumber.js outline/features -r outline/steps",
-    "datatable": "cucumber.js datatable/features -r datatable/steps"
+    "datatable": "cucumber.js datatable/features -r datatable/steps",
+    "hooks": "cucumber.js hooks/features -r hooks/steps"
   },
   "author": "Graham Cox <graham@grahamcox.co.uk>",
   "license": "ISC",

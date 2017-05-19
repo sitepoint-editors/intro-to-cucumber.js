@@ -14,6 +14,9 @@ grunt.initConfig({
 		},
 		datatable: {
             command: 'cucumber.js datatable/features -r datatable/steps'
+		},
+		hooks: {
+            command: 'cucumber.js hooks/features -r hooks/steps'
 		}
 	}
 });

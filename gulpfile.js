@@ -9,3 +9,7 @@ gulp.task('background', shell.task([
   'cucumber.js background/features -r background/steps'
 ]));
 
+gulp.task('outline', shell.task([
+  'cucumber.js outline/features -r outline/steps'
+]));
+

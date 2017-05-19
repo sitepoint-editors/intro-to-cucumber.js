@@ -8,6 +8,9 @@ grunt.initConfig({
 		},
 		background: {
             command: 'cucumber.js background/features -r background/steps'
+		},
+		outline: {
+            command: 'cucumber.js outline/features -r outline/steps'
 		}
 	}
 });

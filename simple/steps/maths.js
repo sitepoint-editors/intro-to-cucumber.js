@@ -1,5 +1,4 @@
 const defineSupportCode = require('cucumber').defineSupportCode;
-const assert = require('assert');
 const expect = require('chai').expect;
 
 defineSupportCode(function({ Given, Then, When }) {
